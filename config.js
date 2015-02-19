@@ -3,8 +3,8 @@
 module.exports = {
  
         auth: {
-            user: 'example@gmail.com',
-            pass: 'xxxxxxxx',
+            user: 'globalwindows3@gmail.com',
+            pass: 'xxxxxxxxxxxx',
         }
     
 };
