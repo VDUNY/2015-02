@@ -1,7 +1,10 @@
- var fs = require('fs');
- var path = require('path');
-
-console.log("Filename: ");
+var fs = require('fs');
+var path = require('path');
+var stdin = process.stdin;
+var stdout = process.stdout;
+ 
+stdin.resume();
+stdout.write("Filename: ");
 
 process.stdin.on('data', function (filename) { 
 
